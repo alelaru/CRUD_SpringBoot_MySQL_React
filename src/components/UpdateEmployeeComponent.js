@@ -76,7 +76,6 @@ class UpdateEmployeeComponent extends Component {
                                             value={this.state.emailId} onChange={this.changeEmailIdHandler}
                                         ></input>                                      
                                     </div> 
-
                                     <button className="btn btn-success" onClick={this.updateEmployee}>Save</button>
                                     <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{marginLeft:"10px"}}>Cancel</button>
                                 </form>
